@@ -1,9 +1,10 @@
 import './App.css';
+import Hello from './components/Hello';
 
 const App = () => {
   return (
     <div className="App">
-      Test Git & React
+      <Hello />
     </div>
   );
 }
